@@ -1,0 +1,121 @@
+.Bjs-footer {
+    background-color: #fafad2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 24px;
+}
+
+.bjs_div1 {
+    height: 70px;
+}
+
+.bjs_left {
+    float: left;
+    padding-left: 60px;
+}
+
+.bjs_right {
+    float: right;
+    padding-right: 40px;
+}
+
+.bjs_label {
+    font-size: 18px;
+    padding-right: 32px;
+}
+
+.ios-logo {
+    width: 200px;
+
+}
+
+.play-logo {
+    margin-top: 13px;
+    width: 150px;
+    max-height: 50px;
+
+}
+
+.bjs_label1 {
+    font-size: 18px;
+    /* padding-right: 35px; */
+    color: white;
+    text-align: center;
+}
+
+/*
+  .bjs_label2 {
+    font-size: 18px;
+  
+    color: white;
+  } */
+
+.bjs_label_left {
+    float: left;
+    /* height: 150px; */
+    padding-top: 20px;
+    background-color: black;
+    width: 100%;
+}
+
+.bjs_label_left1 {
+    float: left;
+    width: 80%;
+    padding-left: 15px;
+    display: flex;
+}
+
+/* .bjs_label_left2 {
+    float: left;
+    width: 80%;
+    padding-left: 60px;
+    display: flex;
+    padding-top: 20px;
+  }
+   */
+.bjs_bottom {
+    float: left;
+    width: 100%;
+    /* padding-left: 60px; */
+    /* display: flex; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.facebook-logo {
+    width: 25px;
+    height: 25px;
+    padding-right: 32px;
+}
+
+.twitter-logo {
+    width: 25px;
+    height: 25px;
+    padding-right: 32px;
+}
+
+.instagram-logo {
+    width: 25px;
+    height: 25px;
+    padding-right: 32px;
+}
+
+.youtube-logo {
+    width: 25px;
+    height: 25px;
+    padding-right: 40px;
+}
+
+.note {
+    color: #FFF;
+    font-size: 15px;
+    background-color: black;
+    padding-top: 12px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+}

@@ -1,0 +1,33 @@
+.App {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Bjs-header {
+    background-color: #fafad2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px;
+  }
+  
+  .Bjs-logo {
+    height: 40px;
+  }
+  .bjs_div_logo {
+  width:70%;
+  display: flex;
+  }
+  .bjs_loign {
+    padding-right: 20px;
+    font-size: 18px;
+  }
+  .bjs_home {
+    padding-right: 20px;
+    font-size: 18px;
+  }
+  .bjs_search {
+    width: 20px;
+    height: 20px;
+  }
