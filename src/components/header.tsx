@@ -1,6 +1,6 @@
 import bjs from "../images/bjs_logo.png";
 import search from '../images/search.jpg';
-import { App, HeaderStyle, BjsLogoDiv, BjsLogoImg, BjsLoginLabel, BjsHomeLabel, BjsSearchLabel } from '../styles/headerStyle.js'
+import { App, HeaderStyle, BjsLogoDiv, BjsLogoImg, BjsLoginLabel, BjsHomeLabel, BjsSearchLabel } from '../styles/headerStyle'
 
 function Header() {
     return (

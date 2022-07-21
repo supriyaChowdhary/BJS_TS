@@ -5,7 +5,7 @@ import instagram from "../images/instagram.png";
 import youtube from "../images/youtube.jpg";
 import ios from "../images/ios.png";
 import playStore from "../images/play.png";
-import { App, FooterStyle, BjsDiv1, BjsLeft, BjsRight, BjsLabel, IosLogo ,PlayLogo,BjsLabel1,BjsLabelLeft ,BjsLabelLeft1,BjsBottom ,FacebookLogo ,YoutubeLogo,InstagramLogo,TwitterLogo} from '../styles/footerStyle.js'
+import { App, FooterStyle, BjsDiv1, BjsLeft, BjsRight, BjsLabel, IosLogo ,PlayLogo,BjsLabel1,BjsLabelLeft ,BjsLabelLeft1,BjsBottom ,FacebookLogo ,YoutubeLogo,InstagramLogo,TwitterLogo} from '../styles/footerStyle'
 
 function Footer() {
   return (
