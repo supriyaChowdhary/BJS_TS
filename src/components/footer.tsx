@@ -5,38 +5,37 @@ import instagram from "../images/instagram.png";
 import youtube from "../images/youtube.jpg";
 import ios from "../images/ios.png";
 import playStore from "../images/play.png";
-import '../styles/footer.css';
+import { App, FooterStyle, BjsDiv1, BjsLeft, BjsRight, BjsLabel, IosLogo ,PlayLogo,BjsLabel1,BjsLabelLeft ,BjsLabelLeft1,BjsBottom ,FacebookLogo ,YoutubeLogo,InstagramLogo,TwitterLogo} from '../styles/footerStyle.js'
 
 function Footer() {
   return (
-    <div className="App">
-      <footer className="Bjs-footer">
-        <div className="bjs_div1">
-          <div className="bjs_left">
-            <label className="bjs_label">  SUPPORT  </label>
-            <label className="bjs_label">  CAREERS  </label>
-            <label className="bjs_label">  INVESTORS </label>
-            <label className="bjs_label">  ABOUT </label>
-          </div>
-          <div className="bjs_right">
-            <img src={facebook} className="facebook-logo" alt="facebook_logo" />
-            <img src={instagram} className="instagram-logo" alt="instagram_logo" />
-            <img src={twitter} className="twitter-logo" alt="twitter_logo" />
-            <img src={youtube} className="youtube-logo" alt="youtube_logo" />
-          </div>
-        </div>
-        <div className="bjs_label_left">
-          <div className="bjs_label_left1">
-            {/* <label className="bjs_label1">  ios CTA </label>
-            <label className="bjs_label1">  Android CTA </label>  */}
-            <img src={ios} className="ios-logo" alt="ios_logo" />
-            <img src={playStore} className="play-logo" alt="play_logo" />
-
-          </div>
-          <div className="bjs_bottom"><label className="bjs_label1">  @ 2022 bJ's Restaurant </label> </div>
-        </div>
-      </footer>
-    </div>
+    <App>
+      <FooterStyle>
+        <BjsDiv1>
+          <BjsLeft>
+            <BjsLabel>  SUPPORT  </BjsLabel>
+            <BjsLabel>  CAREERS  </BjsLabel>
+            <BjsLabel>  INVESTORS </BjsLabel>
+            <BjsLabel>  ABOUT </BjsLabel>
+          </BjsLeft>
+          <BjsRight>
+            <FacebookLogo src={facebook} alt="facebook_logo" />
+            <InstagramLogo src={instagram} alt="instagram_logo" />
+            <TwitterLogo src={twitter}  alt="twitter_logo" />
+            <YoutubeLogo src={youtube}  alt="youtube_logo" />
+          </BjsRight>
+        </BjsDiv1>
+        <BjsLabelLeft>
+          <BjsLabelLeft1>
+           <IosLogo src={ios} alt="ios_logo" />
+            <PlayLogo src={playStore}  alt="play_logo" />
+          </BjsLabelLeft1>
+          <BjsBottom>
+            <BjsLabel1>  @ 2022 bJ's Restaurant </BjsLabel1> 
+            </BjsBottom>
+        </BjsLabelLeft>
+      </FooterStyle>
+    </App>
   );
 }
 

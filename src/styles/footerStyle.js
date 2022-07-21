@@ -1,81 +1,75 @@
-.Bjs-footer {
+import styled from 'styled-components';
+
+export const App = styled.div`
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    `;
+
+export const FooterStyle = styled.footer`
     background-color: #fafad2;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     padding-top: 24px;
-}
+`;
 
-.bjs_div1 {
+export const BjsDiv1 = styled.div`
     height: 70px;
-}
+`;
 
-.bjs_left {
+export const BjsLeft = styled.div`
     float: left;
     padding-left: 60px;
-}
+`;
 
-.bjs_right {
+export const BjsRight = styled.div`
     float: right;
     padding-right: 40px;
-}
+`;
 
-.bjs_label {
+export const BjsLabel = styled.label`
     font-size: 18px;
     padding-right: 32px;
-}
+`;
 
-.ios-logo {
+export const IosLogo = styled.img`
     width: 200px;
 
-}
+`;
 
-.play-logo {
+export const PlayLogo = styled.img`
     margin-top: 13px;
     width: 150px;
     max-height: 50px;
 
-}
+`;
 
-.bjs_label1 {
+export const BjsLabel1 = styled.label`
     font-size: 18px;
-    /* padding-right: 35px; */
-    color: white;
+      color: white;
     text-align: center;
-}
+`;
 
-/*
-  .bjs_label2 {
-    font-size: 18px;
-  
-    color: white;
-  } */
 
-.bjs_label_left {
+export const BjsLabelLeft = styled.div`
     float: left;
     /* height: 150px; */
     padding-top: 20px;
     background-color: black;
     width: 100%;
-}
+`;
 
-.bjs_label_left1 {
+export const BjsLabelLeft1 = styled.div`
     float: left;
     width: 80%;
     padding-left: 15px;
     display: flex;
-}
+`;
 
-/* .bjs_label_left2 {
-    float: left;
-    width: 80%;
-    padding-left: 60px;
-    display: flex;
-    padding-top: 20px;
-  }
-   */
-.bjs_bottom {
+
+export const BjsBottom = styled.div`
     float: left;
     width: 100%;
     /* padding-left: 60px; */
@@ -83,39 +77,39 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-}
+`;
 
-.facebook-logo {
+export const FacebookLogo = styled.img`
     width: 25px;
     height: 25px;
     padding-right: 32px;
-}
+`; 
 
-.twitter-logo {
+export const TwitterLogo = styled.img`
     width: 25px;
     height: 25px;
     padding-right: 32px;
-}
+`;
 
-.instagram-logo {
+export const InstagramLogo = styled.img`
     width: 25px;
     height: 25px;
     padding-right: 32px;
-}
+`;
 
-.youtube-logo {
+export const YoutubeLogo = styled.img`
     width: 25px;
     height: 25px;
     padding-right: 40px;
-}
+`;
 
-.note {
-    color: #FFF;
-    font-size: 15px;
-    background-color: black;
-    padding-top: 12px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 45px;
-}
+// export const note = styled.img`
+//     color: #FFF;
+//     font-size: 15px;
+//     background-color: black;
+//     padding-top: 12px;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     height: 45px;
+// `;
